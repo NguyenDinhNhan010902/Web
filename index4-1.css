@@ -1,0 +1,49 @@
+
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.buttonn{
+    width: 1200px;
+    height: 100vh;
+    /* background: wheat; */
+    display: flex;
+    justify-content: center;
+   margin: auto;
+   /* margin-top: 10vh; */
+   border: 1;
+}
+.button{
+    margin-top: 50vh;
+}
+button{ 
+    
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+}
+#do{
+    background: red;
+}
+#vang{
+    background: yellow;
+}
+#xanh{
+    background: green;
+}
+#den{
+    background: black;
+    color: aliceblue;
+}
+#trang{
+    background: white;
+}
+#tim{
+    background: purple;
+}
+#xanhduong{
+    background: rgb(116, 116, 246);
+}

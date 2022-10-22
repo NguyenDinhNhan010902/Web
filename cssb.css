@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box ;
+}
+
+.contaner{
+    width: 1200px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input{
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+input, textarea{
+    width:  500px;
+    margin: auto;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.input input{
+    background: rgb(234, 230, 230);
+    height: 70px;
+}
+.input textarea{
+    background: rgb(234, 230, 230);
+}
+label{
+    height:100%;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+}
+button{
+    width: 500px;
+    padding: 10px 0 ;
+    color:white;
+    background-color:black;
+    outline: none;
+    /* background: transparent; */
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input{
+    flex-basis: 400px;
+}
+#email{
+    width: 250px;
+}
+#phone{
+    width: 250px;
+    
+    
+}
+.custom select{
+    width: 500px;
+    height:70px ;
+    background: rgb(234, 230, 230);
+}
